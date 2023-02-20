@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Babylonica&display=swap");
+
+/* 
+header css */
+header {
+  position: fixed;
+  width: 100%;
+  /* position: sticky; */
+  background-color: rgba(255, 255, 255, 0.9);
+  top: 0%;
+  left: 0%;
+}
+/* navbar */
+.navmenu {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-css {
+  width: 60px;
+  height: 60px;
+  margin-left: 66px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  list-style: none;
+  margin-right: 66px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #481551;
+}
+.nav-links a:hover {
+  color: #4fa3db;
+  text-decoration: underline;
+}
+
+/* second list : nav */
+/* .dropdown-content {
+  visibility: hidden;
+}
+.dropbtn:hover + .dropdown-content {
+  visibility: visible;
+} */
+.dropbtn {
+  color: #481551;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  position: absolute;
+  right: 2%;
+
+  display: none;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdawn:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  background-color: aquamarine;
+}
+
+.dropdawn:hover .dropbtn {
+  color: #4fa3db;
+  text-decoration: underline;
+}
+/* about section */
+.css-span {
+  color: #4fa3db;
+  font-weight: bolder;
+  font-family: "Babylonica", cursive;
+}
+
+.about-section h1 {
+  line-height: 30px;
+  word-spacing: 5px;
+  text-transform: capitalize;
+  text-indent: 15px;
+}
+.about-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 80px;
+}
+.watchvideo-btn {
+  border: none;
+  width: 150px;
+  height: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  margin-top: 12px;
+}
+.watchvideo-btn:hover {
+  background-color: #4fa3db;
+  color: white;
+}
+.watchvideo-btn:active {
+  background-color: green;
+  color: white;
+}
+/* projects section */
+.projects-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.project p {
+  width: 360px;
+  line-height: 35px;
+}
+.project h3 {
+  text-align: center;
+}
+.project a {
+  color: #481551;
+}
+/* footer */
+footer {
+  background-color: #e8e8e6;
+  margin-top: 15px;
+  height: 70px;
+}
+.footer-message {
+  text-align: center;
+  padding: 20px;
+  color: #363945;
+}
+.footer-message a {
+  color: #5b6b7f;
+  font-weight: bold;
+}
